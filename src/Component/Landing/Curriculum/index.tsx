@@ -1,4 +1,3 @@
-import React from 'react';
 // Components
 import Grid from '@mui/material/Grid';
 import Text from "../../Shared/Text";
