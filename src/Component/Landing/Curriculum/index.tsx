@@ -1,3 +1,4 @@
+import React from 'react';
 // Components
 import Grid from '@mui/material/Grid';
 import Text from "../../Shared/Text";
@@ -17,7 +18,7 @@ export const Curriculum = () => {
     if (loading) {
         return (
             <Box className='spinner'>
-                <CircularProgress style={{ color: '#0033ff' }} />
+                <CircularProgress style={{ color: '#0033ff' }} sx={{textAlign:'center'}} />
                 <p>Loading</p>
             </Box>
         );

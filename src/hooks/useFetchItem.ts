@@ -23,7 +23,8 @@ const useFetchItem = () => {
     const fetchData = async () => {
       try {
         const response = await axios.get<ServerItem[]>(
-          "https://kargo-node.onrender.com/curriculum"
+          "https://kargo-server.vercel.app/curriculum"
+          // "https://kargo-node.onrender.com/curriculum"
         );
         const curriculumData = response.data.map((item) => ({
           id: item.id,

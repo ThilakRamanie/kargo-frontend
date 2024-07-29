@@ -7,6 +7,7 @@ This is a landing page application built using React.js and MUI. The application
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
 - [Running the Application](#running-the-application)
+- [Demo](#demo)
 
 ## Prerequisites
 
@@ -40,3 +41,7 @@ To install this project, follow these steps:
    ```
 
 2. Open your browser and navigate to `http://localhost:5173` to see the landing page.
+
+## Demo
+
+![Demo](./demo.gif)
