@@ -12,7 +12,7 @@ export const HeroComponent = () => {
     return (
         <Grid container columns={12} className='hero-grid'>
             <Grid item xs={12} md={6}>
-                <Image src="assets/hero_img.png" alt='landing page' />
+                <Image src="assets/hero_img.png" alt='landing page' className='hero-img' />
             </Grid>
             <Grid item xs={12} md={6}>
                 <div className="hero-text">

@@ -36,10 +36,12 @@
     }
   }
   // Media queries for responsiveness
-  @media only screen and (max-width: 1200px) {
+  @media only screen and (max-width: 1300px) {
+    .hero-img {
+      width: 100%;
+    }
     .hero-text {
       padding: 0.5rem 4rem;
-
       .hero-title h1 {
         line-height: 3.5rem;
         font-size: 2.5rem;
